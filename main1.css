@@ -1,0 +1,25 @@
+     form {
+  
+  margin: 5 auto;
+  
+  
+  padding: 1em;
+  border: 1px solid #CCC;
+  
+ 
+  
+  cursor: alias;
+  
+  
+  }
+button {
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+

@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link href="main1.css" rel="stylesheet" type="text/css">
+<style>
+    .flex{
+        display:flex;
+        flex-direction: column;
+        width: 600px;
+        height:400px;
+        border: 1px solid #555;
+        background-color: navajowhite;
+        text-align: center;
+    }
+    .flex>div{
+        flex: 11 auto;
+        width: 350 px;
+        transition: width 0.7s ease out;
+    }
+    .flex > div:hover{
+        border: 200px;
+  
+    }
+   
+    </style>
+</head>
+
+<body>
+    <form class ="flex">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id='name'="firstname" placeholder="First Name" />
+            <input type="text" id="1name"="lastname" placeholder="Last Name" />
+        </div>
+        
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="text" id="mail" name="user_mail" placeholder="name@name.com" />
+        
+            <label for="Password">Password: </label>
+            <input type="Password" id="Password" name="password" placeholder="Your password here" required/>
+        </div>
+        
+        <div>
+            <label for="file">upload:</label>
+            <input type="file" id="file" name="file" placeholder="upload file!" />
+        <label for="color">Pick a color:</label>
+            <input type="color" id="color" name="color"  />
+        </div>
+        <div>
+            <label for="date">date:</label>
+            <input type="date" id="date" name="date" placeholder="Today" />
+        </div>
+        <div>
+            <label for="check this!">click me:</label>
+            <input type="checkbox" id="check this" name="check this" />
+        </div>
+        <div>
+            <button type="button"> Submit</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
