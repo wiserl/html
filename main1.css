@@ -4,6 +4,12 @@
          border: 1px solid #CCC;
          cursor: alias;
          background-color: navajowhite;
+         text-align: center;
+         width:400px;
+         height: auto;
+
+         border-radius: 1em;
+         
      }
 button {
     background-color: cadetblue;
@@ -14,5 +20,15 @@ button {
     cursor: pointer;
     width: 100%;
 }
+label{
+    display:inline-block;
+    text-align: right;
+    padding: 6px;
+    
 
+}
+textarea{
+    vertical-align: bottom;
+    height: 10em;
+}
 

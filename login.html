@@ -3,24 +3,7 @@
 <head>
     <link href="main1.css" rel="stylesheet" type="text/css">
 <style>
-    .flex{
-        display:flex;
-        flex-direction: column;
-        width: 600px;
-        height:400px;
-        border: 1px solid #555;
-        background-color: navajowhite;
-        text-align: center;
-    }
-    .flex>div{
-        flex: 11 auto;
-        width: 350 px;
-        transition: width 0.7s ease out;
-    }
-    .flex > div:hover{
-        border: 200px;
-  
-    }
+   
    
     </style>
 </head>
@@ -29,32 +12,39 @@
     <form class ="flex">
         <div>
             <label for="name">Name:</label>
-            <input type="text" id='name'="firstname" placeholder="First Name" />
-            <input type="text" id="1name"="lastname" placeholder="Last Name" />
+            <input type="text" id='name'="firstname" placeholder="First Name" required/>
+            <input type="text" id="1name"="lastname" placeholder="Last Name" required/>
         </div>
         
         <div>
             <label for="email">E-mail:</label>
-            <input type="text" id="mail" name="user_mail" placeholder="name@name.com" />
-        
+            <input type="text" id="mail" name="user_mail" placeholder="name@name.com" required/>
+        </div> <div>
             <label for="Password">Password: </label>
-            <input type="Password" id="Password" name="password" placeholder="Your password here" required/>
+            <input type="Password" pattern=".{9,}" maxlength="30" id="Password" name="password" placeholder="Your password here" required/>
         </div>
         
         <div>
             <label for="file">upload:</label>
-            <input type="file" id="file" name="file" placeholder="upload file!" />
+            <input type="file" id="file" name="file" placeholder="upload file!" required/>
+       </div><div>
+           
         <label for="color">Pick a color:</label>
-            <input type="color" id="color" name="color"  />
+            <input type="color" id="color" name="color"  required/>
+            
         </div>
         <div>
             <label for="date">date:</label>
-            <input type="date" id="date" name="date" placeholder="Today" />
+            <input type="date" id="date" name="date" placeholder="Today" required/>
         </div>
         <div>
             <label for="check this!">click me:</label>
-            <input type="checkbox" id="check this" name="check this" />
+            <input type="checkbox" id="check this" name="check this" required/>
         </div>
+        <select name ="select one">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            </select>
         <div>
             <button type="button"> Submit</button>
         </div>
