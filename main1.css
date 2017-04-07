@@ -1,17 +1,10 @@
      form {
-  
-  margin: 5 auto;
-  
-  
-  padding: 1em;
-  border: 1px solid #CCC;
-  
- 
-  
-  cursor: alias;
-  
-  
-  }
+         margin: 5 auto;
+         padding: 1em;
+         border: 1px solid #CCC;
+         cursor: alias;
+         background-color: navajowhite;
+     }
 button {
     background-color: cadetblue;
     color: white;
