@@ -3,14 +3,34 @@
 <head>
     <link href="main1.css" rel="stylesheet" type="text/css">
 <style>
+    .flex-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        flex-shrink: 90px;
+        flex-wrap:wrap;
+        justify-content: space-between;
+        
+        
+    }
+   .item{
+       flex-grow: 1000px;
+       flex-shrink:20px;
+   }
+    .flex > div{
+        flex: 15 auto;
+        width: 900 px;
+        transition: width 0.7s ease out;
+    }
+    
    
    
     </style>
 </head>
 
 <body>
-    <form class ="flex">
-        <div>
+    <form class ="flex-container item">
+        <div class="Name">
             <label for="name">Name:</label>
             <input type="text" id='name'="firstname" placeholder="First Name" required/>
             <input type="text" id="1name"="lastname" placeholder="Last Name" required/>

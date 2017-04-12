@@ -1,7 +1,7 @@
-     form {
+form {
          margin: 5 auto;
          padding: 1em;
-         border: 1px solid #CCC;
+         border: 1px solid black;
          cursor: alias;
          background-color: navajowhite;
          text-align: center;
@@ -9,8 +9,8 @@
          height: auto;
 
          border-radius: 1em;
-         
      }
+     
 button {
     background-color: cadetblue;
     color: white;
@@ -26,9 +26,5 @@ label{
     padding: 6px;
     
 
-}
-textarea{
-    vertical-align: bottom;
-    height: 10em;
 }
 
